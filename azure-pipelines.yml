@@ -36,7 +36,7 @@ steps:
 - task: prisma-cloud-compute-scan@1
   inputs:
     scanType: 'images'
-    twistlockService: 'prisma_cloud_container_scanner'
+    twistlockService: 'Prisma Cloud SaaS - Container Scan'
     vulnerabilityThreshold: 'high'
     onlyFixed: false
     gracePeriod: '0'
